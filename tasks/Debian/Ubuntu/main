@@ -1,0 +1,5 @@
+---
+
+- name: task -> Install from Deb package
+  include_tasks: package-deb
+  when: source == "package"

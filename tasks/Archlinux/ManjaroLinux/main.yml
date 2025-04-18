@@ -1,0 +1,9 @@
+---
+# https://wiki.archlinux.org/title/Spotify
+- name: spotify-launcher package
+  community.general.pacman:
+    name:
+    - spotify-launcher
+    state: latest
+    update_cache: true
+  become: true
